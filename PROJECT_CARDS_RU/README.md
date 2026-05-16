@@ -9,6 +9,11 @@
 - [llama-ocr](./llama-ocr.md)
 - [github-rag](./github-rag.md)
 - [agentic_rag](./agentic_rag.md)
+- [local-chatgpt](./local-chatgpt.md)
+- [cursor_linkup_mcp](./cursor_linkup_mcp.md)
+- [trustworthy-rag](./trustworthy-rag.md)
+- [notebook-lm-clone](./notebook-lm-clone.md)
+- [mcp-agentic-rag](./mcp-agentic-rag.md)
 
 ## Зачем Нужны Карточки
 
