@@ -10,214 +10,156 @@
 
 ---
 
-# AI Engineering Hub 🚀
+# AI Engineering Hub
 
-Welcome to the **AI Engineering Hub** - your comprehensive resource for learning and building with AI!
+Русифицированный форк [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) с упором на понятную навигацию для русскоязычной аудитории.
 
-## 🌟 Why This Repo?
+Внутри собраны практические проекты по `LLM`, `RAG`, агентам, `MCP`, мультимодальным сценариям, OCR, голосовым интерфейсам, fine-tuning и прикладным AI-системам.
 
-AI Engineering is advancing rapidly, and staying at the forefront requires both deep understanding and hands-on experience. Here, you will find:
-- **93+ Production-Ready Projects** across all skill levels
-- In-depth tutorials on **LLMs, RAG, Agents, and more**
-- Real-world **AI agent** applications
-- Examples to implement, adapt, and scale in your projects
+## Что Здесь Есть
 
-Whether you're a beginner, practitioner, or researcher, this repo provides resources for all skill levels to experiment and succeed in AI engineering.
+- проекты для быстрого старта
+- local-first сценарии с open-weight моделями
+- примеры RAG разной сложности
+- агентные и multi-agent пайплайны
+- проекты по `MCP`
+- сравнение моделей, evaluation и observability
+- более сложные инженерные и исследовательские проекты
 
----
+## Для Кого Этот Форк
 
-## 📋 Table of Contents
+- для разработчиков, которым нужны рабочие примеры, а не только теория
+- для тех, кто хочет зайти в AI engineering через конкретные проекты
+- для тех, кто ищет local-first и практический маршрут
+- для русскоязычной аудитории, которой удобнее стартовать с понятной навигацией
 
-- [Getting Started](#-getting-started)
-- [Newsletter](#-stay-updated-with-our-newsletter)
-- [Projects by Difficulty](#-projects-by-difficulty)
-  - [Beginner Projects (22)](#-beginner-projects)
-  - [Intermediate Projects (48)](#-intermediate-projects)
-  - [Advanced Projects (23)](#-advanced-projects)
-- [Contributing](#-contribute-to-the-ai-engineering-hub)
-- [License](#-license)
+## С Чего Начать
 
----
+Если открываешь репозиторий впервые, сначала смотри:
 
-## 🎯 Getting Started
+- [START_HERE_RU.md](./START_HERE_RU.md)
 
-New to AI Engineering? Start here:
+Там собраны короткие маршруты по задачам и уровню входа.
 
-1. **Complete Beginners**: Check out the [AI Engineering Roadmap](./ai-engineering-roadmap) for a comprehensive learning path
-2. **Learn the Basics**: Start with [Beginner Projects](#-beginner-projects) like OCR apps and simple RAG implementations
-3. **Build Your Skills**: Move to [Intermediate Projects](#-intermediate-projects) with agents and complex workflows
-4. **Master Advanced Concepts**: Tackle [Advanced Projects](#-advanced-projects) including fine-tuning and production systems
+## Быстрые Маршруты
 
----
+### Первый Результат За Вечер
 
-## 📬 Stay Updated with Our Newsletter!
+- [**simple-rag-workflow**](./simple-rag-workflow)
+- [**document-chat-rag**](./document-chat-rag)
+- [**local-chatgpt**](./local-chatgpt)
+- [**llama-ocr**](./llama-ocr)
+- [**streaming-ai-chatbot**](./streaming-ai-chatbot)
 
-**Get a FREE Data Science eBook** 📖 with 150+ essential lessons in Data Science when you subscribe to our newsletter! Stay in the loop with the latest tutorials, insights, and exclusive resources. [Subscribe now!](https://join.dailydoseofds.com)
+### Local-First
 
-[![Daily Dose of Data Science Newsletter](https://github.com/patchy631/ai-engineering/blob/main/resources/join_ddods.png)](https://join.dailydoseofds.com)
+- [**simple-rag-workflow**](./simple-rag-workflow)
+- [**github-rag**](./github-rag)
+- [**llama-ocr**](./llama-ocr)
+- [**gemma3-ocr**](./gemma3-ocr)
+- [**qwen-2.5VL-ocr**](./qwen-2.5VL-ocr)
 
----
+### RAG
 
-## 🎓 Projects by Difficulty
+- [**document-chat-rag**](./document-chat-rag)
+- [**agentic_rag**](./agentic_rag)
+- [**trustworthy-rag**](./trustworthy-rag)
+- [**notebook-lm-clone**](./notebook-lm-clone)
 
-### 🟢 Beginner Projects
+### Агенты
 
-Perfect for getting started with AI engineering. These projects focus on single components and straightforward implementations.
+- [**agentic_rag**](./agentic_rag)
+- [**zep-memory-assistant**](./zep-memory-assistant)
+- [**agent-with-mcp-memory**](./agent-with-mcp-memory)
+- [**content_planner_flow**](./content_planner_flow)
+- [**book-writer-flow**](./book-writer-flow)
 
-#### OCR & Vision
-- [**LaTeX OCR with Llama**](./LaTeX-OCR-with-Llama) - Convert LaTeX equation images to code using Llama 3.2 vision
-- [**Llama OCR**](./llama-ocr) - 100% local OCR app with Llama 3.2 and Streamlit
-- [**Gemma-3 OCR**](./gemma3-ocr) - Local OCR with structured text extraction using Gemma-3
-- [**Qwen 2.5 OCR**](./qwen-2.5VL-ocr) - Text extraction using Qwen 2.5 VL model
+### MCP
 
-#### Chat Interfaces & UI
-- [**Local ChatGPT with DeepSeek**](./local-chatgpt%20with%20DeepSeek) - Mini-ChatGPT with DeepSeek-R1 and Chainlit
-- [**Local ChatGPT with Llama**](./local-chatgpt) - ChatGPT clone using Llama 3.2 vision
-- [**Local ChatGPT with Gemma 3**](./local-chatgpt%20with%20Gemma%203) - Local chat interface with Gemma 3
-- [**DeepSeek Thinking UI**](./deepseek-thinking-ui) - ChatGPT with visible reasoning using DeepSeek-R1
-- [**Qwen3 Thinking UI**](./qwen3-thinking-ui) - Thinking UI with Qwen3:4B and Streamlit
-- [**GPT-OSS Thinking UI**](./gpt-oss-thinking-ui) - GPT-OSS with reasoning visualization
-- [**Streaming AI Chatbot**](./streaming-ai-chatbot) - Real-time AI streaming with Motia framework
+- [**cursor_linkup_mcp**](./cursor_linkup_mcp)
+- [**llamaindex-mcp**](./llamaindex-mcp)
+- [**mcp-agentic-rag**](./mcp-agentic-rag)
+- [**mcp-voice-agent**](./mcp-voice-agent)
+- [**mindsdb-mcp**](./mindsdb-mcp)
 
-#### Basic RAG
-- [**Simple RAG Workflow**](./simple-rag-workflow) - Basic RAG with LlamaIndex and Ollama
-- [**Document Chat RAG**](./document-chat-rag) - Chat with documents using Llama 3.3
-- [**Fastest RAG Stack**](./fastest-rag-stack) - Fast RAG with SambaNova, LlamaIndex, and Qdrant
-- [**GitHub RAG**](./github-rag) - Chat with GitHub repos locally
-- [**ModernBERT RAG**](./modernbert-rag) - RAG with ModernBert embeddings
-- [**Llama 4 RAG**](./llama-4-rag) - RAG powered by Meta's Llama 4
+### Более Сложные Проекты
 
-#### Multimodal & Media
-- [**Image Generation with Janus-Pro**](./imagegen-janus-pro) - Local image generation with DeepSeek Janus-pro 7B
-- [**Video RAG with Gemini**](./video-rag-gemini) - Chat with videos using Gemini AI
+- [**DeepSeek-finetuning**](./DeepSeek-finetuning)
+- [**Build-reasoning-model**](./Build-reasoning-model)
+- [**Multi-Agent-deep-researcher-mcp-windows-linux**](./Multi-Agent-deep-researcher-mcp-windows-linux)
+- [**context-engineering-workflow**](./context-engineering-workflow)
+- [**notebook-lm-clone**](./notebook-lm-clone)
 
-#### Other Tools
-- [**Website to API with FireCrawl**](./Website-to-API-with-FireCrawl) - Convert websites to APIs
-- [**AI News Generator**](./ai_news_generator) - News generation with CrewAI and Cohere
-- [**Siamese Network**](./siamese-network) - Digit similarity detection on MNIST
+## Навигация По Каталогу
 
----
+### Базовый Уровень
 
-### 🟡 Intermediate Projects
+Здесь удобно начинать с:
 
-Multi-component systems, agentic workflows, and advanced features for experienced practitioners.
+- OCR и vision
+- локальных чат-интерфейсов
+- простого RAG
+- небольших приложений с быстрым визуальным результатом
 
-#### AI Agents & Workflows
-- [**YouTube Trend Analysis**](./Youtube-trend-analysis) - Analyze YouTube trends with CrewAI and BrightData
-- [**AutoGen Stock Analyst**](./autogen-stock-analyst) - Advanced analyst with Microsoft AutoGen
-- [**Agentic RAG**](./agentic_rag) - RAG with document search and web fallback
-- [**Agentic RAG with DeepSeek**](./agentic_rag_deepseek) - Enterprise agentic RAG with GroundX
-- [**Book Writer Flow**](./book-writer-flow) - Automated book writing with CrewAI
-- [**Content Planner Flow**](./content_planner_flow) - Content workflow with CrewAI Flow
-- [**Brand Monitoring**](./brand-monitoring) - Automated brand monitoring system
-- [**Hotel Booking Crew**](./hotel-booking-crew) - Multi-agent hotel booking with DeepSeek-R1
-- [**Deploy Agentic RAG**](./deploy-agentic-rag) - Private Agentic RAG API with LitServe
-- [**Zep Memory Assistant**](./zep-memory-assistant) - AI Agent with human-like memory
-- [**Agent with MCP Memory**](./agent-with-mcp-memory) - Agents with Graphiti memory and Opik
-- [**ACP Code**](./acp-code) - Agent Communication Protocol demo
-- [**Motia Content Creation**](./motia-content-creation) - Social media automation workflow
+Хорошие стартовые папки:
 
-#### Voice & Audio
-- [**Real-time Voice Bot**](./real-time-voicebot) - Conversational travel guide with AssemblyAI
-- [**RAG Voice Agent**](./rag-voice-agent) - Real-time RAG Voice Agent with Cartesia
-- [**Chat with Audios**](./chat-with-audios) - RAG over audio files
-- [**Audio Analysis Toolkit**](./audio-analysis-toolkit) - Audio analysis with AssemblyAI
-- [**Multilingual Meeting Notes**](./multilingual-meeting-notes-generator) - Auto meeting notes with language detection
+- [**LaTeX-OCR-with-Llama**](./LaTeX-OCR-with-Llama)
+- [**llama-ocr**](./llama-ocr)
+- [**local-chatgpt**](./local-chatgpt)
+- [**simple-rag-workflow**](./simple-rag-workflow)
+- [**document-chat-rag**](./document-chat-rag)
 
-#### Advanced RAG
-- [**RAG with Dockling**](./rag-with-dockling) - RAG over Excel with IBM's Docling
-- [**Trustworthy RAG**](./trustworthy-rag) - RAG over complex docs with TLM
-- [**Fastest RAG with Milvus and Groq**](./fastest-rag-milvus-groq) - Sub-15ms retrieval latency
-- [**Chat with Code**](./chat-with-code) - Chat with code using Qwen3-Coder
-- [**RAG SQL Router**](./rag-sql-router) - Agent with RAG and SQL routing
+### Средний Уровень
 
-#### Multimodal
-- [**DeepSeek Multimodal RAG**](./deepseek-multimodal-RAG) - MultiModal RAG with DeepSeek-Janus-Pro
-- [**ColiVara Website RAG**](./Colivara-deepseek-website-RAG) - MultiModal RAG for websites
-- [**Multimodal RAG with AssemblyAI**](./multimodal-rag-assemblyai) - Audio + vector database + CrewAI
+Здесь начинаются более составные системы:
 
-#### MCP (Model Context Protocol)
-- [**Cursor Linkup MCP**](./cursor_linkup_mcp) - Custom MCP with deep web search
-- [**EyeLevel MCP RAG**](./eyelevel-mcp-rag) - MCP for RAG over complex docs
-- [**LlamaIndex MCP**](./llamaindex-mcp) - Local MCP client with LlamaIndex
-- [**MCP Agentic RAG**](./mcp-agentic-rag) - MCP-powered Agentic RAG for Cursor
-- [**MCP Agentic RAG Firecrawl**](./mcp-agentic-rag-firecrawl) - Agentic RAG with Firecrawl
-- [**MCP Video RAG**](./mcp-video-rag) - Video RAG using Ragie via MCP
-- [**MCP Voice Agent**](./mcp-voice-agent) - Voice agent with Firecrawl and Supabase
-- [**SDV MCP**](./sdv-mcp) - Synthetic Data Vault orchestration
-- [**KitOps MCP**](./kitops-mcp) - ML model management with KitOps
-- [**Stagehand × MCP-Use**](./stagehand%20x%20mcp-use) - Web automation with Stagehand MCP
+- RAG с маршрутизацией и fallback-логикой
+- агентные сценарии
+- голос и аудио
+- мультимодальные пайплайны
+- `MCP` и работа с инструментами
 
-#### Model Comparison & Evaluation
-- [**Evaluation and Observability**](./eval-and-observability) - E2E RAG evaluation with CometML Opik
-- [**Llama 4 vs DeepSeek-R1**](./llama-4_vs_deepseek-r1) - Compare models using RAG
-- [**Qwen3 vs DeepSeek-R1**](./qwen3_vs_deepseek-r1) - Model comparison with Opik
-- [**O3 vs Claude Code**](./o3-vs-claude-code) - Compare Claude 3.7 and o3
-- [**Sonnet4 vs O4**](./sonnet4-vs-o4) - Code generation comparison
-- [**Sonnet4 vs Qwen3-Coder**](./sonnet4-vs-qwen3-coder) - Coder model comparison
-- [**Code Model Comparison**](./code-model-comparison) - Frontier model code comparison
-- [**GPT-OSS vs Qwen3**](./gpt-oss-vs-qwen3) - Reasoning capabilities comparison
+Полезные папки:
 
----
+- [**agentic_rag**](./agentic_rag)
+- [**agentic_rag_deepseek**](./agentic_rag_deepseek)
+- [**audio-analysis-toolkit**](./audio-analysis-toolkit)
+- [**cursor_linkup_mcp**](./cursor_linkup_mcp)
+- [**mcp-agentic-rag**](./mcp-agentic-rag)
+- [**motia-content-creation**](./motia-content-creation)
 
-### 🔴 Advanced Projects
+### Продвинутый Уровень
 
-Complex systems, fine-tuning, production deployments, and cutting-edge implementations.
+Этот слой уже ближе к исследовательским и production-задачам:
 
-#### Fine-tuning & Model Development
-- [**DeepSeek Fine-tuning**](./DeepSeek-finetuning) - Fine-tune DeepSeek with Unsloth and Ollama
-- [**Build Reasoning Model**](./Build-reasoning-model) - Build DeepSeek-R1-like reasoning models
-- [**Attention Is All You Need Implementation**](./attention-is-all-you-need-impl) - Transformer architecture from scratch
+- fine-tuning
+- reasoning-модели
+- глубокие research workflows
+- document pipelines
+- инфраструктурные `MCP`-проекты
 
-#### Advanced Agent Systems
-- [**NVIDIA Demo**](./nvidia-demo) - Documentation writer with CrewAI Flows and NVIDIA NIM
-- [**Documentation Writer Flow**](./documentation-writer-flow) - Agentic documentation workflow
-- [**Multi-Agent Deep Researcher**](./Multi-Agent-deep-researcher-mcp-windows-linux) - MCP-powered deep researcher
-- [**Multiplatform Deep Researcher**](./multiplatform_deep_researcher) - Multi-platform research with BrightData
-- [**Web Browsing Agent**](./web-browsing-agent) - Browser automation with CrewAI and Stagehand
-- [**Paralegal Agent Crew**](./paralegal-agent-crew) - Intelligent paralegal with RAG
-- [**FireCrawl Agent**](./firecrawl-agent) - Corrective RAG with web search fallback
-- [**Context Engineering Workflow**](./context-engineering-workflow) - Research assistant with TensorLake and Zep
-- [**Parlant Conversational Agent**](./parlant-conversational-agent) - Compliance-driven conversational agent
-- [**Stock Portfolio Analysis Agent**](./stock-portfolio-analysis-agent) - Portfolio analysis with React frontend
-- [**Guidelines vs Traditional Prompt**](./guidelines-vs-traditional-prompt) - Structured guidelines comparison
+Полезные папки:
 
-#### Advanced MCP & Infrastructure
-- [**MindsDB MCP**](./mindsdb-mcp) - Unified MCP for all data sources
-- [**Financial Analyst DeepSeek**](./financial-analyst-deepseek) - MCP financial analysis workflow
-- [**Graphiti MCP**](./graphiti-mcp) - Persistent memory with Zep's Graphiti
-- [**Pixeltable MCP**](./pixeltable-mcp) - Unified multimodal data orchestration
-- [**Ultimate AI Assistant**](./ultimate-ai-assitant-using-mcp) - Multi-MCP server interface
+- [**DeepSeek-finetuning**](./DeepSeek-finetuning)
+- [**Build-reasoning-model**](./Build-reasoning-model)
+- [**documentation-writer-flow**](./documentation-writer-flow)
+- [**context-engineering-workflow**](./context-engineering-workflow)
+- [**graphiti-mcp**](./graphiti-mcp)
+- [**groundX-doc-pipeline**](./groundX-doc-pipeline)
 
-#### Production Systems
-- [**GroundX Document Pipeline**](./groundX-doc-pipeline) - World-class document processing
-- [**NotebookLM Clone**](./notebook-lm-clone) - Full NotebookLM with RAG, citations, and podcasts
+## Как Лучше Использовать Этот Репозиторий
 
-#### Learning Resources
-- [**AI Engineering Roadmap**](./ai-engineering-roadmap) - Complete guide from Python to production AI
+1. Выбери одно направление, а не десять сразу.
+2. Доведи один проект до результата.
+3. Только потом переходи к соседней теме.
+4. Если нужен локальный путь, начинай с `Ollama`-дружественных и local-first проектов.
+5. Если интересуют агенты, сначала разберись с обычным RAG и работой с инструментами.
 
----
+## Лицензия
 
-## 📢 Contribute to the AI Engineering Hub!
+Репозиторий распространяется под лицензией [MIT](./LICENSE).
 
-We welcome contributors! Whether you want to add new tutorials, improve existing code, or report issues, your contributions make this community thrive. Here's how to get involved:
+## Credits
 
-1. **Fork** the repository
-2. Create a new branch for your contribution
-3. Submit a **Pull Request** and describe the improvements
-
-Check out our [contributing guidelines](CONTRIBUTING.md) for more details.
-
----
-
-## 📜 License
-
-This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 💬 Connect
-
-For discussions, suggestions, and more, feel free to [create an issue](https://github.com/patchy631/ai-engineering/issues) or reach out directly!
-
-**Happy Coding!** 🎉
+- Original repository: [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)
+- В этом форке сохранена структура исходного каталога и добавлена русскоязычная навигация.
