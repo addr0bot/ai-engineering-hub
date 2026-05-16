@@ -19,6 +19,11 @@
 - [gemma3-ocr](./gemma3-ocr.md)
 - [qwen-2.5VL-ocr](./qwen-2.5VL-ocr.md)
 - [zep-memory-assistant](./zep-memory-assistant.md)
+- [content_planner_flow](./content_planner_flow.md)
+- [book-writer-flow](./book-writer-flow.md)
+- [mindsdb-mcp](./mindsdb-mcp.md)
+- [parlant-conversational-agent](./parlant-conversational-agent.md)
+- [ultimate-ai-assitant-using-mcp](./ultimate-ai-assitant-using-mcp.md)
 
 ## Зачем Нужны Карточки
 
