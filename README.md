@@ -38,6 +38,10 @@
 Если открываешь репозиторий впервые, сначала смотри:
 
 - [START_HERE_RU.md](./START_HERE_RU.md)
+- [TOP_PROJECTS_RU.md](./TOP_PROJECTS_RU.md)
+- [PROJECT_INDEX_RU.md](./PROJECT_INDEX_RU.md)
+- [RU_ALTERNATIVES.md](./RU_ALTERNATIVES.md)
+- [PROJECT_CARD_TEMPLATE_RU.md](./PROJECT_CARD_TEMPLATE_RU.md)
 
 Там собраны короткие маршруты по задачам и уровню входа.
 
