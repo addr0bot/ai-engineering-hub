@@ -14,6 +14,11 @@
 - [trustworthy-rag](./trustworthy-rag.md)
 - [notebook-lm-clone](./notebook-lm-clone.md)
 - [mcp-agentic-rag](./mcp-agentic-rag.md)
+- [llamaindex-mcp](./llamaindex-mcp.md)
+- [mcp-voice-agent](./mcp-voice-agent.md)
+- [gemma3-ocr](./gemma3-ocr.md)
+- [qwen-2.5VL-ocr](./qwen-2.5VL-ocr.md)
+- [zep-memory-assistant](./zep-memory-assistant.md)
 
 ## Зачем Нужны Карточки
 
